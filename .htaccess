@@ -1,0 +1,3 @@
+# Redireciona todas as requisições para endpoint.php se o arquivo não existir
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^api/(.*)$ api/endpoint.php [L,QSA]
