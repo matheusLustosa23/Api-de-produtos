@@ -1,0 +1,3 @@
+//arquivo que ignora certos arquivos
+//definindo que ignore a pasta node_modules
+node_modules
