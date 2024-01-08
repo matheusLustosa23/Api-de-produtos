@@ -11,7 +11,7 @@ const port = process.env.PORT || 3000;
 const produtos = require("./src/produtos/produtos.json");
 
 // Configuração de uma rota do tipo GET para o caminho "/produtos"
-app.get("/produtos", (req, res) => {
+app.get("/produtos/api/endpoint.php", (req, res) => {
     // Retorna os dados contidos na constante 'produtos' como uma resposta JSON
     return res.json(produtos);
 });
